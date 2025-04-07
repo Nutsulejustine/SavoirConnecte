@@ -17,9 +17,6 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .utton{
-      color: black;
-    }
   </style>
 </head>
 <body>
@@ -27,21 +24,25 @@
     <h2 class="mb-4 text-center">Inscription</h2>
     <form>
       <div class="mb-3">
-        <label for="nom" class="form-label">Nom complet</label>
-        <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+        <label for="name" class="form-label">Nom complet</label>
+        <input type="text" class="form-control" id="name" placeholder="Votre nom complet" required>
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Adresse e-mail</label>
-        <input type="email" class="form-control" id="email" placeholder="votre@email.com">
+        <input type="email" class="form-control" id="email" placeholder="votre@email.com" required>
       </div>
       <div class="mb-3">
         <label for="password" class="form-label">Mot de passe</label>
-        <input type="password" class="form-control" id="password" placeholder="••••••••">
+        <input type="password" class="form-control" id="password" placeholder="••••••••" required>
       </div>
-      <button type="submit" class="btn btn-success w-100">S'inscrire</button>
+      <div class="mb-3">
+        <label for="confirm-password" class="form-label">Confirmez le mot de passe</label>
+        <input type="password" class="form-control" id="confirm-password" placeholder="••••••••" required>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
     </form>
     <div class="mt-3 text-center">
-      <a href="connexion.html">Déjà inscrit ? Se connecter</a>
+      <a href="connexion.php">Déjà un compte ? Se connecter</a>
     </div>
   </div>
 </body>

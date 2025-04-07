@@ -31,10 +31,10 @@
         <label for="password" class="form-label">Mot de passe</label>
         <input type="password" class="form-control" id="password" placeholder="••••••••">
       </div>
-      <button type="submit" class="btn btn-primary w-100">Se connecter</button>
+      <button type="submit" class="btn btn-primary w-100"a href="x.php">Se connecter</button>
     </form>
     <div class="mt-3 text-center">
-      <a href="inscription.html">Pas encore de compte ? S'inscrire</a>
+      <a href="inscription.php">Pas encore de compte ? S'inscrire</a>
     </div>
   </div>
 </body>
