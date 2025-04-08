@@ -30,7 +30,7 @@
 <body>
   <div class="form-container">
     <h2 class="mb-4 text-center">Connexion</h2>
-    <form>
+    <form method="GET" action="redirect.php">
       <div class="mb-3">
         <label for="email" class="form-label">Adresse e-mail</label>
         <input type="email" class="form-control" id="email" placeholder="votre@email.com">
@@ -45,6 +45,7 @@
         <input type="text" class="form-control" id="codedm" placeholder="Entrez votre code directeur">
       </div>
       <?php endif; ?>
+      <input type="hidden" name="type" value="<?php echo isset($_GET['type']) ? $_GET['type'] : 'etudiant'; ?>">
       <button type="submit" class="btn btn-primary w-100">Se connecter</button>
     </form>
     <div class="mt-3 text-center">
