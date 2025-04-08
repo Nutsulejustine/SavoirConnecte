@@ -8,6 +8,7 @@
   <style>
     body {
       background-color: #f8f9fa;
+      overflow: hidden;
     }
     .form-container {
       max-width: 500px;
@@ -16,6 +17,13 @@
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transform: translateY(-100%);
+      animation: flyIn 0.8s ease-out forwards;
+    }
+    @keyframes flyIn {
+      to {
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
@@ -31,7 +39,13 @@
         <label for="password" class="form-label">Mot de passe</label>
         <input type="password" class="form-control" id="password" placeholder="••••••••">
       </div>
-      <button type="submit" class="btn btn-primary w-100"a href="x.php">Se connecter</button>
+      <?php if (isset($_GET['type']) && $_GET['type'] === 'directeur'): ?>
+      <div class="mb-3">
+        <label for="codedm" class="form-label">Code Directeur</label>
+        <input type="text" class="form-control" id="codedm" placeholder="Entrez votre code directeur">
+      </div>
+      <?php endif; ?>
+      <button type="submit" class="btn btn-primary w-100">Se connecter</button>
     </form>
     <div class="mt-3 text-center">
       <a href="inscription.php">Pas encore de compte ? S'inscrire</a>
