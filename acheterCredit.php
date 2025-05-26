@@ -1,3 +1,4 @@
+<?php include 'action.php'; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -50,7 +51,7 @@
               <li>Publicités incluses</li>
               <li>Protection basique</li>
             </ul>
-            <a href="#" class="btn btn-custom">Commencer</a>
+            <a href="liste.php" class="btn btn-custom">Commencer</a>
           </div>
         </div>
       </div>
@@ -70,7 +71,7 @@
               <li>Statistiques de consultation</li>
               <li>Fonctionnalités sociales complètes</li>
             </ul>
-            <a href="#" class="btn btn-custom">S'abonner</a>
+            <a href="payement.php" class="btn btn-custom">S'abonner</a>
           </div>
         </div>
       </div>
@@ -90,7 +91,7 @@
               <li>Protection standard</li>
               <li>Validité des crédits : 1 an</li>
             </ul>
-            <a href="#" class="btn btn-custom">Acheter des crédits</a>
+            <a href="payement.php" class="btn btn-custom">Acheter des crédits</a>
           </div>
         </div>
       </div>

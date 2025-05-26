@@ -404,7 +404,7 @@
         <div class="container">
             <h1>Valorisez vos travaux académiques</h1>
             <p>Savoirs Connectés est une plateforme innovante dédiée au partage, à la valorisation et à la protection des travaux académiques. Rejoignez notre communauté et donnez de la visibilité à vos recherches.</p>
-            <a href="#" class="btn">S'inscrire gratuitement</a>
+            <a href="inscription.php" class="btn">S'inscrire gratuitement</a>
         </div>
     </section>
 
