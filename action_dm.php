@@ -61,6 +61,7 @@
         <nav>
             <a href="demande.php">Liste des Demandes</a>
             <a href="profildm.php">Profil</a>
+            <a href="suivi_dm.php">Suivi</a>
         </nav>
     </header>
 
