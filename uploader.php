@@ -26,7 +26,7 @@
                     <option value="humanites">Humanités</option>
                 </select>
             </div>
-            <button type="submit" class="btn btn-primary w-100" style="background-color: #3498db; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">Uploader</button>
+            <button type="submit" class="btn btn-primary w-100" style="background-color: #3498db; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">Uploader</butto>
         </form>
     </div>
 </div>

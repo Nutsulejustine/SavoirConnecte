@@ -62,6 +62,7 @@
             <a href="liste.php">Liste des Docs</a>
             <a href="thematique.php">Thématiques</a>
             <a href="uploader.php">Upload de Doc</a>
+            <a href="DM.php">Directeur de Memoire</a>
         </nav>
     </header>
 
